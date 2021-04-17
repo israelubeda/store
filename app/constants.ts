@@ -1,6 +1,6 @@
 export const INFORMATION = {
-  avatar: "/assets/avatar.jpg",
-  banner: "/assets/banner.jpg",
+  avatar: "/assets/lalibre2.png",
+  banner: "/assets/Portada.JPG",
   title: "La Libre",
   description: "Cultura | Feminismo | Revolución.",
   phone: `543413879932`,
@@ -13,7 +13,7 @@ export const INFORMATION = {
     },
     {
       name: "whatsapp",
-      url: `https://api.whatsapp.com/send?phone=543413879932&text=%F0%9F%98%80%20Hola%20La%20Libre!%20Puedo%20hacerles%20una%20consulta%3F%0AMuchas%20gracias%20%F0%9F%92%9C`,
+      url: `https://wa.me/543413879932`,
     },
   ],
 };
