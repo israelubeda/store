@@ -1,5 +1,5 @@
 export const INFORMATION = {
-  avatar: "/assets/lalibre2.png",
+  avatar: "/assets/libros.png",
   banner: "/assets/Portada.JPG",
   title: "La Libre",
   description: "Cultura | Feminismo | Revolución.",
