@@ -28,8 +28,8 @@ export const INFORMATION = {
       url: `https://spoti.fi/2WoI5pW`,
     },
     {
-      name: "mail",
-      url: `lalibrecf@gmail.com`,
+      name: "email",
+      url: `mailto:lalibrecf@gmail.com`,
     },
     {
       name: "github",
