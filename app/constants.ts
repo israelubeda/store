@@ -28,7 +28,7 @@ export const INFORMATION = {
       url: `https://spoti.fi/2WoI5pW`,
     },
     {
-      name: "email",
+      name: "envelope-o",
       url: `mailto:lalibrecf@gmail.com`,
     },
     {
