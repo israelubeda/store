@@ -1,15 +1,15 @@
 import React from "react";
-import {Stack, Button, Text, Image} from "@chakra-ui/react";
+import { Stack, Button, Text, Image } from "@chakra-ui/react";
 
-import {parseCurrency} from "../../utils/currency";
-import {Product} from "../types";
+import { parseCurrency } from "../../utils/currency";
+import { Product } from "../types";
 
 interface Props {
   product: Product;
   onAdd: (product: Product) => void;
 }
 
-const ProductCard: React.FC<Props> = ({product, onAdd}) => {
+const ProductCard: React.FC<Props> = ({ product, onAdd }) => {
   return (
     <Stack
       key={product.id}
@@ -26,12 +26,12 @@ const ProductCard: React.FC<Props> = ({product, onAdd}) => {
         <Image
           backgroundColor="white"
           borderRadius="md"
-          height={{base: 24, sm: 36}}
+          height={{ base: 24, sm: 36 }}
           loading="lazy"
-          minWidth={{base: 24, sm: 36}}
+          minWidth={{ base: 24, sm: 36 }}
           objectFit="contain"
           src={product.image}
-          width={{base: 24, sm: 36}}
+          width={{ base: 24, sm: 36 }}
         />
         <Stack justifyContent="space-between" spacing={1} width="100%">
           <Stack spacing={1}>
@@ -40,10 +40,17 @@ const ProductCard: React.FC<Props> = ({product, onAdd}) => {
               {product.category}
             </Text>
             <Text color="gray.500" fontSize="sm">
+              {product.autore}
+            </Text>
+            <Text color="gray.500" fontSize="sm">
               {product.description}
             </Text>
           </Stack>
-          <Stack alignItems="flex-end" direction="row" justifyContent="space-between">
+          <Stack
+            alignItems="flex-end"
+            direction="row"
+            justifyContent="space-between"
+          >
             <Text color="green.500" fontSize="sm" fontWeight="500">
               {parseCurrency(product.price)}
             </Text>
