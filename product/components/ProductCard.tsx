@@ -37,6 +37,9 @@ const ProductCard: React.FC<Props> = ({product, onAdd}) => {
           <Stack spacing={1}>
             <Text fontWeight="500">{product.title}</Text>
             <Text color="gray.500" fontSize="sm">
+              {product.category}
+            </Text>
+            <Text color="gray.500" fontSize="sm">
               {product.description}
             </Text>
           </Stack>
