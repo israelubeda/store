@@ -43,8 +43,11 @@ const ProductCard: React.FC<Props> = ({ product, onAdd }) => {
               {product.autore}
             </Text>
             <Text color="gray.500" fontSize="sm">
-              {product.description}
+              {product.editorial}
             </Text>
+{/*             <Text color="gray.500" fontSize="sm">
+              {product.description}
+            </Text> */}
           </Stack>
           <Stack
             alignItems="flex-end"
