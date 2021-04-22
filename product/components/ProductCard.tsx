@@ -40,7 +40,7 @@ const ProductCard: React.FC<Props> = ({ product, onAdd }) => {
               {product.category}
             </Text>
             <Text color="gray.500" fontSize="sm">
-              Autore: {product.autore}
+              Autore(s): {product.autore}
             </Text>
             <Text color="gray.500" fontSize="sm">
               Editorial: {product.editorial}
