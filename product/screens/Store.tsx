@@ -1,26 +1,34 @@
 import * as React from "react";
-import {Button, Flex, Grid, Stack, Text} from "@chakra-ui/react";
+import { Button, Flex, Grid, Stack, Text } from "@chakra-ui/react";
 
-import {CartItem, Product} from "../types";
+import { CartItem, Product } from "../types";
 import ProductCard from "../components/ProductCard";
 import CartDrawer from "../components/CartDrawer";
-import {editCart} from "../selectors";
-import {parseCurrency} from "../../utils/currency";
+import { editCart } from "../selectors";
+import { parseCurrency } from "../../utils/currency";
 
 interface Props {
   products: Product[];
 }
 
-const StoreScreen: React.FC<Props> = ({products}) => {
+const StoreScreen: React.FC<Props> = ({ products }) => {
   const [cart, setCart] = React.useState<CartItem[]>([]);
   const [isCartOpen, toggleCart] = React.useState<boolean>(false);
 
   const total = React.useMemo(
     () =>
-      parseCurrency(cart.reduce((total, product) => total + product.price * product.quantity, 0)),
-    [cart],
+      parseCurrency(
+        cart.reduce(
+          (total, product) => total + product.price * product.quantity,
+          0
+        )
+      ),
+    [cart]
   );
-  const quantity = React.useMemo(() => cart.reduce((acc, item) => acc + item.quantity, 0), [cart]);
+  const quantity = React.useMemo(
+    () => cart.reduce((acc, item) => acc + item.quantity, 0),
+    [cart]
+  );
 
   function handleEditCart(product: Product, action: "increment" | "decrement") {
     setCart(editCart(product, action));
@@ -51,13 +59,18 @@ const StoreScreen: React.FC<Props> = ({products}) => {
           </Text>
         )}
         {Boolean(cart.length) && (
-          <Flex alignItems="center" bottom={4} justifyContent="center" position="sticky">
+          <Flex
+            alignItems="center"
+            bottom={4}
+            justifyContent="center"
+            position="sticky"
+          >
             <Button
               boxShadow="xl"
               colorScheme="primary"
               data-testid="show-cart"
               size="lg"
-              width={{base: "100%", sm: "fit-content"}}
+              width={{ base: "100%", sm: "fit-content" }}
               onClick={() => toggleCart(true)}
             >
               <Stack alignItems="center" direction="row" spacing={6}>

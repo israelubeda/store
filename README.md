@@ -12,6 +12,10 @@ Yo no tengo los conocimientos para armar esto pero sin embargo logré hacer depl
 - conectando mi cuenta de Github con [Vercel](https://vercel.com) y seleccionando el repositorio,
 - Listo! Vercel hace el deploy automático 😍
 
+## Intervenciones
+
+- Bloques `input` y `select` con [chakra](https://chakra-ui.com/)
+
 ## Vouch para Goncy
 
 Si pensas que podes agregar una funcionalidad que le sirva al resto, mandale un PR. También podes apoyar su contenido y mandarle un [cafecito](https://cafecito.app/goncy)
