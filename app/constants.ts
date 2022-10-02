@@ -1,7 +1,7 @@
 export const INFORMATION = {
   avatar: "/assets/libros.png",
   banner: "/assets/Portada.JPG",
-  title: "La Libre",
+  title: "Gotarsi titulo",
   description: "Envianos tu pedido y a la brevedad te respondemos.",
   description2: "👉 Nuestro horario de atención es de Martes a Viernes de 16 a 20 hs. Hacemos envíos 🚴‍♀",
   phone: `56982260964`,
@@ -34,7 +34,7 @@ export const INFORMATION = {
     },
     {
       name: "github",
-      url: `https://github.com/diegobollini/la-libre-catalogo`,
+      url: `https://github.com/israelubeda`,
     },
   ],
 };
