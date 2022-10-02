@@ -1,5 +1,5 @@
 export const INFORMATION = {
-  avatar: "/assets/libros.png",
+  avatar: "/assets/tulogo.jpg",
   banner: "/assets/Portada.jpg",
   title: "Gotarsi titulo",
   description: "Envianos tu pedido y a la brevedad te respondemos.",
