@@ -29,6 +29,10 @@ export const INFORMATION = {
       url: `mailto:israel.ubedabravo@gmail.com`,
     },
     {
+      name: "fa-globe",
+      url: `https://israelubeda.github.io/`,
+    },
+    {
       name: "github",
       url: `https://github.com/israelubeda`,
     },
