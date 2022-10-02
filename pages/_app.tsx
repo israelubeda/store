@@ -32,7 +32,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
       `}
     />
       <Head>
-        <title>La Libre - Catálogo online</title>
+        <title>Gotarsi - Catálogo online</title>
         <meta content="initial-scale=1.0, width=device-width" name="viewport" />
         {/* Inicio de meta tags de licencia - Cambiar el contenido de los mismos viola el contenido de los terminos de licencia */}
         <meta content="goncy" name="author" />
@@ -117,21 +117,21 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
                   </Stack>
                   <Select placeholder="Filtrar catálogo">
                     <option value="option1">
-                      ¿Esto es un libro? (Filosofía)
+                      Filtro 1
                     </option>
-                    <option value="option2">Brujas Literarias</option>
-                    <option value="option3">Infancias Libres</option>
-                    <option value="option4">Juglares del Paraná</option>
-                    <option value="option5">Lecturas a Contrapelo</option>
-                    <option value="option6">Lecturas Incendiarias</option>
-                    <option value="option7">Lecturas de Siempre</option>
-                    <option value="option8">Libros Maleducados</option>
-                    <option value="option9">Libros para NO Olvidar</option>
-                    <option value="option10">Manifiestos contra Colón</option>
+                    <option value="option2">Filtro 2</option>
+                    <option value="option3">Filtro 3</option>
+                    <option value="option4">Filtro 4</option>
+                    <option value="option5">Filtro 5o</option>
+                    <option value="option6">Filtro 6</option>
+                    <option value="option7">Filtro 7</option>
+                    <option value="option8">Filtro 8</option>
+                    <option value="option9">LFiltro 9</option>
+                    <option value="option10">Filtro 10</option>
                     <option value="option11">
-                      Manifiestos contra el Derrame
+                      Filtro 11
                     </option>
-                    <option value="option12">Salud Feminista</option>
+                    <option value="option12">Filtro 12</option>
                   </Select>
                 </Stack>
               </Stack>
@@ -145,6 +145,13 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
             comunidad, por{" "}
             <Link isExternal href="https://gonzalopozzo.com">
               goncy
+            </Link>
+            .
+          </Text>
+          <Text textAlign="center">
+            Customizado por {" "}
+            <Link isExternal href="https://israelubeda.github.io/">
+              Israel Ubeda
             </Link>
             .
           </Text>
