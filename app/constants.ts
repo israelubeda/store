@@ -4,8 +4,8 @@ export const INFORMATION = {
   title: "La Libre",
   description: "Envianos tu pedido y a la brevedad te respondemos.",
   description2: "👉 Nuestro horario de atención es de Martes a Viernes de 16 a 20 hs. Hacemos envíos 🚴‍♀",
-  phone: `543413879932`,
-  sheet: `https://docs.google.com/spreadsheets/d/e/2PACX-1vS8wxp9GvOkeIz8LUsOpIbngFliMgsQd0ZnWEiqkrInhNfDY6E8cNyyKyJCNIuQTBD4U2St9g3VE4Pw/pub?gid=0&single=true&output=csv`,
+  phone: `56982260964`,
+  sheet: `https://docs.google.com/spreadsheets/d/e/2PACX-1vSlD8fPH4XHphHUW2Gtkhp31wCOKk1kLL6kpaOMJEvUq-dsUlnS29aN25rqdJDwFJq20f4hME79rQXj/pub?output=csv`,
   color: `teal`,
   social: [
     {
@@ -14,7 +14,7 @@ export const INFORMATION = {
     },
     {
       name: "whatsapp",
-      url: `https://wa.me/543413879932`,
+      url: `https://wa.me/56982260964`,
     },
     {
       name: "twitter",
