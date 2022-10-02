@@ -1,6 +1,6 @@
 export const INFORMATION = {
   avatar: "/assets/libros.png",
-  banner: "/assets/Portada.JPG",
+  banner: "/assets/portada.jpg",
   title: "Gotarsi titulo",
   description: "Envianos tu pedido y a la brevedad te respondemos.",
   description2: "👉 Nuestro horario de atención es de Martes a Viernes de 16 a 20 hs. Hacemos envíos 🚴‍♀",
