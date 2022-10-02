@@ -1,4 +1,4 @@
-# Catálogo virtual de [La Libre](lalibrecf.com.ar)
+# Catálogo virtual
 
 Tienda online administrada via Google Sheets forkeada del proyecto de [Goncy](https://github.com/goncy/store) e intervenida por [Bolli](https://bolli.ar) muy artesanalmente.
 
